@@ -25,7 +25,7 @@ const Routes = ({}: RoutesProps) => {
 
 				<Route path="*" index element={<Navigate to="/auth/login" />} />
 			</Route>
-			<Route path="*" index element={<Main.Home.Home />} />
+			<Route path="*" index element={<Navigate to="/" />} />
 		</Switch>
 	);
 };

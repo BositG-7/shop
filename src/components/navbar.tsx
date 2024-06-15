@@ -12,7 +12,10 @@ const Navbar: FunctionComponent<NavbarProps> = () => {
 
 	return (
 		<>
-			<Box p="24px 100px" sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', height: '100px' }}>
+			<Box
+				p="24px 100px"
+				id="navbar"
+				sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', height: '100px' }}>
 				<Box
 					onClick={() => {
 						navigate('/');

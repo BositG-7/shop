@@ -5,7 +5,7 @@ interface FooterProps {}
 
 const Footer: FunctionComponent<FooterProps> = () => {
 	const handleClickScroll = () => {
-		const element = document.getElementById('section-1');
+		const element = document.getElementById('navbar');
 
 		if (element) {
 			// 👇 Will scroll smoothly to the top of the next section
